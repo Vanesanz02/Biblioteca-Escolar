@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novedades</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="bg-dark text-white">
+    <div class="container-fluid">
+      <h1 class="my-4">Novedades</h1>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="actividades.html">Actividades</a></li>
+          <li class="nav-item"><a class="nav-link" href="busqueda.html">Búsqueda</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="biblio bg-info text-dark text-center py-5">
+      <div class="container">
+        <h2>Estas son las novedades de la biblioteca escolar</h2>
+        <p>Los últimos libros que ingresaron. ¡No te los podés perder!</p>
+      </div>
+    </section>
+
+    <section class="imagenes py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#libro1">
+            <img src="imagenes/ciencia.jpg" class="img-fluid rounded" alt="ciencia">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#libro2">
+            <img src="imagenes/sacheri.jpg" class="img-fluid rounded" alt="sacheri">
+          </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#libro3">
+            <img src="imagenes/valientes.jpg" class="img-fluid rounded" alt="valientes">
+          </a>
+          </div>
+           <div class="col-md-3">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#libro4">
+            <img src="imagenes/fontanarrosa.jpg" class="img-fluid rounded" alt="fontanarrosa">
+          </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<!-- Modales -->
+<div class="modal fade" id="libro1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Historias de 101 mujeres extraordinarias que cambiaron la ciencia</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p> "Un libro sobre mujeres que fueron pioneras en sus oficios. Famosas algunas, otras ignoradas: científicas, artistas, atletas, activistas, líderes y muchas más, para entender el proceso histórico y entender la situación actual."</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+           </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="libro2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Los días de la revolución, Eduardo Sacheri</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>"es el primer libro de ensayo histórico del escritor y profesor de Historia. Por qué no había una idea de país en 1810, cómo ciertos elementos persisten en el siglo XXI, la grieta y claves para pensar la Revolución de Mayo. "</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+           </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="libro3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">La voz de los valientes, Rafael Tarradas Bultó</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>En tiempos de paz jugaron a ser otros. En tiempos de guerra descubrieron quiénes eran en realidad.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+           </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="libro4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Negar todo y otros cuentos, Roberto Fontanarrosa</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>Seis años transcurrieron desde el fallecimiento del "Negro" Fontanarrosa (como era cariñosamente apodado por todos) hasta que un Juez autorizó la publicación de sus últimos cuentos, publicación que estaba trabada por litigio entre sus herederos. A pesar de las limitantes circunstancias de su enfermedad, el Negro trabajó en estos 24 cuentos con entusiasmo hasta el último día de su vida.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+           </div>
+    </div>
+  </div>
+</div>
+
+
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>Derechos de autor &copy; 2023 Biblioteca Escolar Elpidio Pérez</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+

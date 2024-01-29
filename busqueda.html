@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>Biblioteca Escolar</title>
+ <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <script src="js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="bg-dark text-white">
+    <div class="container-fluid">
+      <h1 class="my-4">Búsqueda</h1>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="novedades.html">Novedades</a></li>
+          <li class="nav-item"><a class="nav-link" href="actividades.html">Actividades</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="biblio bg-info text-dark text-center py-5">
+      <div class="container">
+        <h2>Búsqueda en la Biblioteca</h2>
+        <form action=buscando.php method= post>
+          Buscar libro <input type=text name=buscar>
+          <input type=submit value=buscando>
+        </form>
+      </div>
+      <form action= "loguear.php" method= "post">
+              <input type= "submit" value="admin">        
+    </form>
+    </section>
+  </main>
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>Derechos de autor &copy; 2023 Biblioteca Escolar Elpidio Pérez</p>
+    </div>
+  </footer>
+</body>
+</html>
